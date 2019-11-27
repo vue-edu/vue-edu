@@ -18,3 +18,60 @@ a{
     text-decoration: none;
     color:#333;
 }
+body .el-popper[x-placement^=bottom]{
+    margin-top: 0;
+}
+body .el-popover{
+    width: 150px;
+    min-width: initial;
+    border: none;
+    padding: 10px 0;
+}
+.cur-pass, .logout{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.cur-pass:hover,
+.logout:hover{
+    background: #f1f5ff;
+}
+.log-mo{
+    margin-right: 5px;
+}
+body .el-dialog__wrapper .el-drawer__header{
+    color: #333;
+    padding: 20px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+body .sch-content{
+    padding: 10px 15px 5px;
+}
+body .sch-input{
+    position: relative;
+    border: 1px solid #dcdfe6;
+    border-radius: 20px;
+}
+body .sch-input input{
+    outline: none;
+    border: none;
+    width: 140px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+body .sch-input input::-webkit-input-placeholder{
+    color: #acacad;
+}
+body .sch-input i{
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    color: #acacad;
+}
+body .sch-item p{
+    padding: 15px;
+    cursor: pointer;
+}
+body .sch-item p:hover{
+    background: #eef2f7;
+}
